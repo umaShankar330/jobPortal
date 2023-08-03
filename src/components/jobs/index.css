@@ -1,0 +1,120 @@
+.jobs-container {
+  background-color: black;
+  display: flex;
+  padding: 20px 0px;
+  min-height: 100vh;
+  max-width: 100vw;
+  color: white;
+}
+.filter-list-container {
+  width: 30vw;
+  position: relative;
+  padding: 10px 10px 10px 60px;
+  list-style-type: none;
+}
+.search-and-jobCard-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.job-item-cont {
+  color: white;
+}
+/* employee-list-container */
+.list-of-types {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+.job-items-section {
+  padding: 0;
+}
+/* employee-list-container end */
+/* salary-range-list  */
+.salary-range-list {
+  list-style-type: none;
+  line-height: 2;
+}
+#input-salary {
+  margin-right: 10px;
+}
+.salary-list-container {
+  margin-left: 0;
+  padding-left: 0;
+}
+.label-element {
+  margin-left: 8px;
+}
+.brake-line {
+  display: flex;
+  width: 100%;
+  background-color: #7e858e;
+}
+/* salary-range-list end */
+/* search-input-box start */
+.search-input-box {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  line-height: 1.5;
+}
+.search-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(146, 140, 140, 0.752);
+  height: 25px;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.search-icon {
+  margin: 0px;
+  color: white;
+}
+.search-btn {
+  background-color: #272727;
+  border: none;
+  outline: none;
+}
+/* search-input-box end */
+.retry-btn {
+  height: 30px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #4f46e5;
+}
+/* job-item-cont start */
+.job-item-cont {
+  list-style-type: none;
+  background-color: #272727;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.list-style-remove {
+  text-decoration: none;
+}
+.middle-cont {
+  display: flex;
+  justify-content: space-between;
+}
+/* job-item-cont end */
+/* failure-container */
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 450px;
+}
